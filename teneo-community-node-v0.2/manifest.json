@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "Teneo Community Node",
+  "description": "This is a Chrome extension for the Teneo Community Node",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Teneo Community Node"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "48": "icons/icon48.png"
+  }
+}

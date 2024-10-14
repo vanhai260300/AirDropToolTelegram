@@ -1,0 +1,15 @@
+# Ignore all data.txt files and their copies
+**/data.txt
+**/data copy.txt
+**/data*.txt
+
+# Ignore all proxy.txt files and their copies
+**/proxy.txt
+**/proxy copy.txt
+**/proxy*.txt
+
+**/node_modules
+**/yarn-error.log
+**/yarn-debug.log*
+**/yarn-debug.log
+**/yarn-debug.log
